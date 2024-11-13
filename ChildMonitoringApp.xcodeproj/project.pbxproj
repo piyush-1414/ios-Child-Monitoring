@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		60E1A2F42CE256850098C92E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E1A2F32CE256850098C92E /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		60E1A2D52CE256620098C92E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		60E1A2BE2CE256600098C92E /* ChildMonitoringApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChildMonitoringApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E1A2D42CE256620098C92E /* ChildMonitoringAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildMonitoringAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60E1A2DE2CE256620098C92E /* ChildMonitoringAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChildMonitoringAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E1A2F32CE256850098C92E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E1A2F42CE256850098C92E /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,7 @@
 				60E1A2C02CE256600098C92E /* ChildMonitoringApp */,
 				60E1A2D72CE256620098C92E /* ChildMonitoringAppTests */,
 				60E1A2E12CE256620098C92E /* ChildMonitoringAppUITests */,
+				60E1A2F22CE256850098C92E /* Frameworks */,
 				60E1A2BF2CE256600098C92E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +110,14 @@
 				60E1A2DE2CE256620098C92E /* ChildMonitoringAppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		60E1A2F22CE256850098C92E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E1A2F32CE256850098C92E /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
